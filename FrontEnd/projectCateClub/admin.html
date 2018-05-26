@@ -1,0 +1,381 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+	<title>Admin page</title>
+</head>
+<body>
+	
+<div class="general_row">
+          
+          <div class="row">
+            <div class="col-lg-12">
+              
+                <div class="top_header">
+                   <div class="inner_header">
+                        <div class="icon_tel">
+                           <img src="img/icon_telephone.png" alt="">
+                        </div>
+                        <div class="teleph">
+                          <a href="" class="tel_text"> +38 (093) 03 26 186</a>
+                          <a href="">cateclub@gmail.com</a>
+                        </div>
+                        <div class="icon_facebook">
+                           <a href="https://www.facebook.com/cateclub.lviv" target="_blank"><img src="img/icon_facebook.png" alt=""></a>
+                        </div>
+                        <div class="icon_twitter">
+                          <a href="https://twitter.com/?lang=en" target="_blank"><img src="img/icon_twitter.png" alt=""></a>
+                        </div>
+                         <div class="login_text">
+                          <button id="login_" type="button" href="login.html">Login |</button>
+                        </div>
+                         <div class="login_text registration">
+                          <button id="registr_button" type="button" href=""registr.html"">Registration</button>
+                        </div>
+                        <div class="clear"></div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="category">
+					
+				<p>Category:</p>
+				<input id="idCategory" type="text" placeholder="idCategory" class="input_id">
+				<input id="nameCategory" type="text" placeholder="nameCategory">
+
+				<button id="addCategory" type="submit" value="submit">ADD</button>
+				<button id="deleteCategory" type="button" value="delete">DELETE</button>
+
+				</div>
+			</div>
+		</div>
+		
+<hr>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="sub_category">
+					
+				<p>SubCategory:</p>
+				<input id="idSubCategory" type="text" placeholder="idSubCategory" class="input_id">
+				<input id="nameSubCategory" type="text" placeholder="nameSubCategory">
+				<input id="idCategoryForSubCategory" type="text" placeholder="idCategory" class="input_id">
+
+
+				<button id="addSubCategory" type="submit" value="submit">ADD</button>
+				<button id="deleteSubCategory"type="button" value="delete">DELETE</button>
+
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="service">
+					
+				<p>Servises:</p>
+				<input id="idServises" type="text" placeholder="idServises" class="input_id">
+				<input id="nameServises" type="text" placeholder="nameServises ">
+
+				<button id="addServises" type="submit" value="submit">ADD</button>
+				<button id="deleteServises" type="button" value="delete">DELETE</button>
+
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="sub_service">
+					
+				<p>Subservices:</p>
+				<input type="text" placeholder="id" class="input_id">
+				<input id="nameSubServises" type="text" placeholder="nameSubServises">
+				<input id="idServisesForSubServises" type="text" placeholder="idSubServises">
+
+				<button id="addSubServises" type="submit" value="submit">ADD</button>
+				<button type="button" value="delete">DELETE</button>
+
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="goods">
+					
+				<p>Goods:</p>
+				<input id="idGoods" type="text" placeholder="id" class="input_id">
+				
+				<input id="nameGoods"type="text" placeholder="Goods name">
+                <input id="idSubCategoryForGoods" type="text" placeholder="idSubCategory" class="input_id">
+                 <input id="idCategoryForGoods" type="text" placeholder="idCategory" class="input_id">
+				<input id="price" type="text" placeholder="Price" class="input_price">
+				<br>
+				
+				
+				<br>
+				<span>Select category:</span>
+				<select>
+					  <option value=""></option>
+					  <option value=""></option>
+
+				</select>
+
+				<br>
+				<span>Select subcategory:</span>
+				<select>
+					  <option value=""></option>
+					
+				</select>
+
+				<br>
+                <input type="file" id="filedFile">
+				<button id="addGoods" onclick="getFile(document.getElementById('filedFile'))">ADD</button>
+				<button id="deleteGoods" type="button" value="delete">DELETE</button>
+
+				</div>
+			</div>
+		</div>
+
+<hr>
+
+
+		<div class="row">
+			<div class="col-lg-12">
+			
+				<div  id="userList" class="user_list">
+				<h1>UserList</h1>	
+				<ul id="listUseriv"></ul>
+				</div>
+				
+			</div>
+		</div>
+
+	
+		<div class="row">
+            
+              <div class="col-lg-12">
+                  <div class="socialnetworks">
+                    <ul>
+                          <li>
+                            <a href=""><img src="img/facebook_footer.png" alt=""></a> 
+                          </li>
+                          <li>
+                            <a href=""><img src="img/twitter_footer.png" alt=""></a>
+                          </li>
+                          <li>
+                            <a href=""><img src="img/instagram_footer.png" alt=""></a>
+                          </li>
+                           <li>
+                            <a href=""><img src="img/google_footer.png" alt=""></a>
+                          </li>
+                    
+                    </ul>
+                  </div>
+                  <div class="copyright">
+                      <p> &copy; 2018 CATECLUB. ALL RIGHTS RESERVED.</p>
+                  </div>
+              </div>
+
+          </div>
+</div>
+
+<!--Category-->
+<script>
+    $("#addCategory").click(function(){
+    var category = {
+      nameCategory:$("#nameCategory").val()
+    };
+
+  $.ajax({
+    url:"http://localhost:8080/category",
+    type:"POST",
+      headers: {
+          "Authorize":"Bearer " + localStorage.getItem("token")
+      },
+    contentType:"application/json",
+    data:JSON.stringify(category),
+    success:function(data){
+        $("#categoryInShop").append("<li>"+data.nameCategory+"</li>");
+        alert("Good");
+            
+            
+    },
+    error:function(error){
+      console.log(error);
+    }
+  });
+		});
+      
+    </script>
+
+    <!--SubCategory-->
+
+     <script>
+
+      $("#addSubCategory").click(function(){
+    var subCategory = {
+      nameSubCategory:$("#nameSubCategory").val(),
+        idCategory:$("#idCategoryForSubCategory").val()
+    };
+
+  $.ajax({
+    url:"http://localhost:8080/subCategory",
+    type:"POST",
+      headers: {
+          "Authorize":"Bearer " + localStorage.getItem("token")
+      },
+    contentType:"application/json",
+    data:JSON.stringify(subCategory),
+    success:function(data){
+        $("#content").append("<h3>"+data.id+" "+data.nameSubCategory+"</h3>")
+        alert("Good");
+    },
+    error:function(error){
+      console.log(error);
+    }
+  });
+		});
+    
+ 
+    </script>
+  
+    
+    <!--Servises-->
+
+    <script>
+
+     $("#addServises").click(function(){
+    var servises = {
+      nameServises:$("#nameServises").val()
+    };
+
+  $.ajax({
+    url:"http://localhost:8080/servises",
+    type:"POST",
+      headers: {
+          "Authorize":"Bearer " + localStorage.getItem("token")
+      },
+    contentType:"application/json",
+    data:JSON.stringify(servises),
+    success:function(data){
+        alert("Good");
+    },
+    error:function(error){
+      console.log(error);
+    }
+  });
+		});
+
+      <!--SubServises-->
+
+      $("#addSubServises").click(function(){
+    var subServises = {
+      nameSubServises:$("#nameSubServises").val(),
+        idServises:$("#idServisesForSubServises").val()
+    };
+
+  $.ajax({
+    url:"http://localhost:8080/subServises",
+    type:"POST",
+      headers: {
+          "Authorize":"Bearer " + localStorage.getItem("token")
+      },
+    contentType:"application/json",
+    data:JSON.stringify(subServises),
+    success:function(data){
+        alert("Good");
+    },
+    error:function(error){
+      console.log(error);
+    }
+  });
+		});
+        
+    </script>
+
+    
+          <!--Goods-->
+      <script>
+        function getFile(object) {
+            var file = object.files[0];
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = function() {
+                console.log("uploading...");
+                var readFile = reader.result;
+        
+                
+           var goods = {
+           nameGoods:$("#nameGoods").val(),
+           idCategory:$("#idCategoryForGoods").val(),
+           idSubCategory:$("#idSubCategoryForGoods").val(),
+           img:readFile,
+           price:$("#price").val()
+          
+    }
+                $.ajax({
+                    'url': "http://localhost:8080/goods",
+                    'type': "POST",
+                    headers: {
+          "Authorize":"Bearer " + localStorage.getItem("token")
+      },
+                    'contentType': "application/json",
+                    "dataType": "json",
+                    'data': JSON.stringify(goods),
+                    'success': function(data) {
+                        alert("Good");
+                    },
+                    'error': function(error) {
+                        alert("ERROR");
+                    }
+                });
+            }
+        }
+    </script>
+    
+
+     <!--ListUser-->
+    <script>
+
+  $.ajax({
+    url:"http://localhost:8080/user",
+    type:"GET",
+    contentType:"application/json",
+    success:function(data){
+        for(var i=0;i<data.length;i++){
+            $("#listUseriv").append("<li>"+data[i].id+"  "+data[i].name+"</li>"); 
+        }
+    },
+    error:function(error){
+      console.log(error);
+    }
+  });
+    
+    </script>
+	
+</body>
+</html>

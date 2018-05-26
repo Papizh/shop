@@ -1,0 +1,712 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+.col-lg-12{
+	margin: 0px;
+	padding: 0px;
+}
+.top_header{
+	height: 30px;
+	background-color: #202226;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.inner_header{
+	float: right;
+	width: 515px;
+	margin-right: 15px;
+}
+.inner_header button{
+	margin-bottom: 10px;
+    background-color: #202226;
+    border: none;
+    outline: none;
+    font-family: Merienda;
+	color: #ccc;
+	font-size: 12px;
+    cursor: pointer;
+}
+
+.icon_tel{
+	float: left;
+}
+
+.icon_tel{
+	margin-top: 7px;
+}
+
+.icon_tel img{
+	width: 20px;
+	height: 20px;
+}
+
+.teleph {
+	width: 240;
+	margin-top: 9px;
+	float: left;
+}
+.login_text{
+	margin-top: 6px;
+	float: left;
+}
+
+.registration{
+	margin-right: 0px;
+}
+
+.login_text a{
+	font-family: Merienda;
+	color: #ccc;
+	font-size: 12px;
+	padding-right: 5px;
+}
+.icon_facebook{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.icon_facebook img{
+	width: 20px;
+	height: 20px;
+}
+.icon_twitter{
+	margin-top: 1px;
+	margin-right: 5px;
+}
+.icon_twitter img{
+	width: 30px;
+	height: 30px;
+}
+.icon_login{
+	margin-top: 4px;
+}
+.icon_login img{
+	width: 22px;
+	height: 22px;
+}
+.icon_facebook, .icon_twitter{
+	float: left;
+}
+.tel_text{
+	cursor: text;
+}
+.teleph a{
+	font-family: Merienda;
+	color: #ccc;
+	font-size: 12px;
+	padding-right: 20px;
+}
+.clear{
+	clear: both;
+}
+.navbar-brand{
+	color: #007a51 !important; 
+	font-size: 200%;
+	font-family: 'Kaushan Script', cursive;
+}
+.navbar{
+	background: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	margin-top: 30px;
+}
+.shop_menu li{
+	display: inline-block;
+}
+
+.shop_menu li a img, .my_float li a img{
+	width: 15px;
+	height: 15px;
+}
+.my_float li a, .shop_menu li a{
+	color: #202226 !important;
+	font-family: 'Merienda', cursive;
+	font-size: 14px;
+}
+.shop_menu li a{
+	padding-bottom: 10px;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+
+.my_float li a:hover, .shop_menu li a:hover{
+	color: #007a51 !important;
+}
+
+
+.slides{
+	height: 515px;
+	margin-top: 95px;
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 35px;
+}
+.four_boxes{
+	height: 270px;
+	margin-top: 10px;
+	text-align: center;
+}
+.row_welcome{
+	background-color: #eee;
+}
+.left_column{
+	padding-right: 0px;
+}
+.right_column{
+	padding-left: 0px; 
+}
+.img_welcome{
+	height: 500px;
+	background-image: url(http://www.themes.red-sun-design.com/spoon/wp-content/uploads/2016/01/risotto.jpg);
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-position: center center;
+	background-size: cover;
+	
+}
+.text_welcome{
+	height: 500px;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text_welcome h2{
+	font-size: 36px;
+    line-height: 1.2em;
+    padding-top: 90px;
+    margin-bottom: 20px;
+    font-weight: bold;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.text_welcome a{
+	padding: 10px;
+	border: 2px solid rgb(48, 48, 51);
+	display: inline-block;
+	margin-top: 20px;
+	background-color: rgb(48, 48, 51);
+	color: #fff;
+	font-family: 'Merienda', cursive;
+	font-size: 14px;
+}
+.text_welcome a:hover{
+	background-color: rgba(48, 48, 51, 0.5);
+}
+.text_welcome h3{
+	color: #ccc;
+	padding-bottom: 20px;
+}
+.text_welcome p{
+	color: rgb(48, 48, 51);
+	font-family: Arial;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 25px;
+}
+
+.div_line{
+	width: 40px;
+	height: 3px;
+	background-color: #303033;
+	margin-bottom: 16px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.whats_new_title{
+	min-height: 220px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.whats_new_title h2{
+	color: rgb(26, 28, 30);
+    font-size: 64px;
+     font-family: 'Roboto Condensed';
+     font-weight: bold;
+     padding-top: 40px;
+     padding-bottom: 25px;
+}
+.whats_new_title p{
+	color: #aaa;
+	line-height: 30px;
+}
+.blog_new {
+	min-height: 450px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.blog_new img{
+	width: 100%;
+}
+.blog_new h2{
+	font-family: 'Roboto Condensed';
+     font-weight: bold;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+
+}
+.hours{
+	margin-bottom: 50px;
+}
+.days_hour{
+	width: 230px;
+	margin: 0 auto;
+}
+.hours a{
+	padding: 10px;
+	background-color: rgb(26, 28, 30);
+	color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+   text-align: center;
+}
+
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.four_boxes img{
+	width: 30px;
+	height: 30px;
+}
+.four_boxes a{
+	padding: 10px;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-top: 20px;
+	color: rgb(48, 48, 51);
+	font-family: 'Merienda', cursive;
+	font-size: 14px;
+}
+.four_boxes a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.four_boxes p{
+	font-family: Arial;
+    color: rgb(48, 48, 51);
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.four_boxes h2{
+	color: rgb(48, 48, 51);
+	font-family: 'Merienda';
+	font-weight: bold;
+}
+.but_read_more a{
+	padding: 10px;
+	border: 2px solid #000;
+	display: inline-block;
+	margin-top: 20px;
+	color: rgb(48, 48, 51);
+	font-family: 'Merienda', cursive;
+	font-size: 14px;
+}
+.date, .but_read_more{
+	display: inline-block;
+}
+.date{
+	position: absolute;
+	bottom: 20px;
+	left: 55px;
+}
+.but_read_more{
+	position: absolute;
+	bottom: 20px;
+	right: 55px;
+}
+.but_read_more a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.date span{
+	color: #aaa;
+	line-height: 30px;
+}
+.blog_new p{
+	color: rgb(48, 48, 51);
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 25px;
+	padding:20px;
+	padding-bottom: 0px;
+}
+.but_to_blog{
+	width: 140px;
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+.but_to_blog a{
+	padding: 10px;
+	border: 2px solid rgb(48, 48, 51);
+	background-color: rgb(48, 48, 51);
+	color: #fff;
+	font-family: 'Merienda', cursive;
+	font-size: 14px;
+}
+.but_to_blog a:hover{
+	background-color: rgba(48, 48, 51, 0.5);
+}
+
+.gallery_block{
+	min-height: 250px;
+	margin-bottom: 40px;
+}
+.gallery_block img{
+	width: 100%;
+}
+.team_block img{
+	border-radius: 50%;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.team_block{
+	margin-bottom: 50px;
+}
+.team_block h2{
+	text-align: center;
+    font-size: 20px;
+     font-family: 'Roboto Condensed';
+     font-weight: bold;
+}
+.team_block h4{
+	text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    color: rgb(48, 48, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.team_block p{
+	text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto Condensed';
+    color: rgb(48, 48, 51);
+    padding: 5px;
+}
+.gallery_block img:hover{
+	cursor: pointer;
+}
+
+.event{
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 125px;
+	margin-bottom: 50px;
+}
+.event p, .event_left p, .event_right p{
+	text-align: center;
+	padding: 20px;
+	color: rgb(26, 28, 30);
+    font-size: 30px;
+     font-family: 'Roboto Condensed';
+     font-weight: bold;
+}
+.event_left, .event_right{
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 300px;
+	margin-bottom: 50px;
+}
+.footer_column{
+	min-height: 450px;
+	background-color: #202226;
+	margin: 50px 0px;
+}
+.center_column{
+	background-image: url(img/bread.jpg);
+	background-size: cover;
+	min-height: 400px;
+}
+.inner_footer_column1{
+	margin-left: 40px;
+}
+.inner_footer_column1 p{
+	color: #aaa;
+	line-height: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.inner_footer_column1 a, .inner_footer_column3 a{
+	padding: 10px;
+	text-transform: uppercase;
+	color: #aaa;
+	border: 2px solid #fff;
+	display: inline-block;
+	margin-top: 10px;
+}
+.inner_footer_column1 a:hover, .inner_footer_column3 a:hover{
+	background-color: #fff;
+	color: #202226;
+}
+.inner_footer_column3 button{
+	margin-left: 10px;
+	padding: 5px;
+}
+.inner_footer_column3 a{
+	margin: 12px;
+}
+.inner_footer_column3 input{
+	margin: 10px;
+	width: 90%;
+	display: block;
+	margin-top: 20px;
+	background-color: #202226;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #aaa;
+}
+.inner_footer_column3 textarea{
+	width: 90%;
+	margin: 10px;
+	min-height: 200px;
+	margin-top: 30px;
+	background-color: #202226;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #aaa;
+}
+.socialnetworks{
+	width: 140px;
+	margin: 0 auto;
+}
+.socialnetworks ul li{
+	display: inline-block;
+}
+.socialnetworks ul li a img{
+	width: 30px;
+	height: 30px;
+	opacity: 0.9;
+}
+.copyright{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.copyright p{
+	text-align: center;
+	font-size: 14px;
+	color: #aaa;
+}
+#login_form, #registr_form{
+	background-color: #fff;
+	box-shadow: 3px 3px 13px -1px rgba(0,0,0,0.66);
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+
+#login_form h3, #registr_form h3{
+	padding: 15px;
+	font-size: 24px;
+	color: #202226;
+	font-family: 'Roboto Condensed';
+	text-align: center;
+}
+
+#login_form label,  #registr_form label {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #202226;
+	font-family: 'Roboto Condensed';
+}
+
+#login_form button,  #registr_form button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+/* Shop Styles */
+.right{
+	padding-right: 0px;
+}
+
+.search_left_col, .products_right_col{
+	min-height: 600px;
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 80px;
+
+}
+.search_left_col{
+	width: 95%;
+	float: right;
+}
+.backgr_shop{
+	background-color: #f4f4f4;
+}
+
+.search_left_col input{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.shop_left_menu{
+	padding-left: 43px;
+	padding-top: 50px;
+}
+.pidmenu{
+	padding-left: 20px;
+}
+.shop_left_menu li a{
+	font-family: Merienda;
+	color: rgb(48, 48, 51);
+	font-size: 12px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ .shop_left_menu li a:hover{
+	color: #007a51 !important;
+}
+.pidmenu li a{
+	font-weight: normal;
+}
+.products_right_col h3{
+	color: rgb(26, 28, 30);
+     font-family: 'Roboto Condensed';
+	font-size: 42px;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
+.product{
+	min-height: 250px;
+	margin-bottom: 20px;
+}
+
+.product img{
+	width: 100%;
+}
+.product_name{
+	text-align: center;
+	padding: 7px;
+	color: rgb(26, 28, 30);
+    font-family:'Roboto Condensed';
+    text-transform: uppercase;
+}
+.price{
+	text-align: center;
+	color: rgb(26, 28, 30);
+    font-family: 'Roboto Condensed';
+}
+/* END Shop Styles */
+
+
+
+@media (max-width: 768px) {
+.slides {
+	height: 416px;
+	margin-top: 95px;
+	background-color: #ccc;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.img_welcome {
+	height: 350px;
+	margin-bottom: 10px;
+
+}
+.text_welcome{
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.text_welcome h2{
+	padding-top: 20px;
+}
+.text_welcome p{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.icon_tel, .tel_text{
+	visibility: hidden;
+}
+
+.carousel-item {
+  height: 26rem;
+}
+.left_column{
+	padding-right: 15px;
+}
+.right_column{
+	padding-left: 15px; 
+}
+.whats_new_title{
+	height: 350px;
+}
+.shop_menu li{
+	display: block;
+}
+.shop_menu li a{
+	padding-left: 0px;
+}
+
+}
+@media (max-width: 1916px) {
+	.blog_new{
+		min-height: 515px;
+	}
+	.date {
+		left: 65px;
+	}
+}
